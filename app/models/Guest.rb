@@ -16,7 +16,7 @@ class Guest
     end
 
     def trips
-        Trip.all.filter {|id| id.guest_name == self}
+        Trip.all.select {|id| id.guest_name == self}
     end
 
     def trip_count
