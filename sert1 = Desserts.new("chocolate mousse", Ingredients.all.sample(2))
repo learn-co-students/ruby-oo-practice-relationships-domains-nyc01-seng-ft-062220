@@ -1,0 +1,16 @@
+=> [[32m#<Bakery:0x0000559b4ca34548[0m
+  @bakery_name[32m=[0m[31m[1;31m"[0m[31mBobs Cakes[1;31m"[0m[31m[0m,
+  @dessert_inst[32m=[0m
+   [[32m#<Desserts:0x0000559b4ca347c8[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mchocolate mousse[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Desserts:0x0000559b4ca346d8[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mdougnut[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Desserts:0x0000559b4ca34750[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mcake[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+ [32m#<Bakery:0x0000559b4ca344d0[0m
+  @bakery_name[32m=[0m[31m[1;31m"[0m[31mCrazy Dougnuts[1;31m"[0m[31m[0m,
+  @dessert_inst[32m=[0m
+   [[32m#<Desserts:0x0000559b4ca34660[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mcrousaint[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Desserts:0x0000559b4ca346d8[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mdougnut[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Desserts:0x0000559b4ca347c8[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mchocolate mousse[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Desserts:0x0000559b4ca34750[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mcake[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+ [32m#<Bakery:0x0000559b4ca34458[0m
+  @bakery_name[32m=[0m[31m[1;31m"[0m[31mCake Creations[1;31m"[0m[31m[0m,
+  @dessert_inst[32m=[0m[[32m#<Desserts:0x0000559b4ca347c8[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mchocolate mousse[1;31m"[0m[31m[0m[32m>[0m, [32m#<Desserts:0x0000559b4ca34750[0m @ingr_inst[32m=[0m[], @name[32m=[0m[31m[1;31m"[0m[31mcake[1;31m"[0m[31m[0m[32m>[0m][32m>[0m]
