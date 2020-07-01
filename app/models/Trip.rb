@@ -1,9 +1,9 @@
 class Trip
-    attr_accessor :guest_name, :listing
+    attr_accessor :guest, :listing
 
     @@all = []
-    def initialize(guest_name, listing)
-        @guest_name = guest_name
+    def initialize(guest, listing)
+        @guest = guest
         @listing = listing
         @@all << self
     end
@@ -12,12 +12,5 @@ class Trip
         @@all
     end
 
-    def listings
-        Listing.all.select {|id| id == self.listing}
-    end
 
-    def guest
-        Guest.all.select {|id| id == self.guest_name}
-    end
-    
 end

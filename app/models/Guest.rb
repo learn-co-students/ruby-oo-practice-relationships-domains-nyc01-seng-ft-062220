@@ -11,12 +11,12 @@ class Guest
         @@all
     end
 
-    def new_trip(listing)
-        Trip.new(self, listing)
+    def listings
+        trips.map{|id| id.listing}
     end
 
     def trips
-        Trip.all.select {|id| id.guest_name == self}
+        Trip.all.select {|id| id.guest == self}
     end
 
     def trip_count

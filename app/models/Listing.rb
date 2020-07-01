@@ -13,13 +13,17 @@ class Listing
     end
 
     def guests
-        trips.map{|id| id.guest_name}
+        trips.map{|id| id.guest}
     end
 
     def trips
         Trip.all.select {|id| id.listing == self}
     end
 
+    def trip_count
+        trips.count
+    end
+    
     def self.find_by_city(location)
         @@all.select {|id| id.city == location}
     end

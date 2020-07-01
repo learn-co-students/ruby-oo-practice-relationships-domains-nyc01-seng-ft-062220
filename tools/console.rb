@@ -32,22 +32,4 @@ t12 = Trip.new(g5, l3)
 t13 = Trip.new(g5, l4)
 
 
-
-# g1.new_trip(l1)
-# g1.new_trip(l5)
-# g1.new_trip(l4)
-# g1.new_trip(l3)
-# g2.new_trip(l1)
-# g2.new_trip(l3)
-# g3.new_trip(l5)
-# g3.new_trip(l3)
-# g3.new_trip(l2)
-# g4.new_trip(l4)
-# g4.new_trip(l3)
-# g5.new_trip(l3)
-# g5.new_trip(l4)
-
-
-
-
 Pry.start
