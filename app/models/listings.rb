@@ -37,7 +37,6 @@ class Listing
             most_trips
         end
         self.all.find{|listing| listing.trip_count == most_trips}
-        # bindnig.pr
     end
 
 end
